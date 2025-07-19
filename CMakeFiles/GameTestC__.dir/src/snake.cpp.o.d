@@ -1,11 +1,14 @@
-CMakeFiles/GameTestC__.dir/main.cpp.o: \
- /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/main.cpp \
- /usr/include/stdc-predef.h /usr/include/SFML/Graphics.hpp \
- /usr/include/SFML/Window.hpp /usr/include/SFML/System.hpp \
- /usr/include/SFML/Config.hpp /usr/include/SFML/System/Clock.hpp \
- /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Time.hpp \
- /usr/include/SFML/System/Err.hpp /usr/include/c++/13/ostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+CMakeFiles/GameTestC__.dir/src/snake.cpp.o: \
+ /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/snake.cpp \
+ /usr/include/stdc-predef.h \
+ /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/snake.hpp \
+ /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/const.hpp \
+ /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/direction.hpp \
+ /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
+ /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
+ /usr/include/SFML/System/Time.hpp /usr/include/SFML/System/Err.hpp \
+ /usr/include/c++/13/ostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -243,10 +246,4 @@ CMakeFiles/GameTestC__.dir/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/13/deque \
- /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/iostream /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/limits \
- /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/fruit.hpp \
- /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/const.hpp \
- /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/snake.hpp \
- /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/direction.hpp
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc

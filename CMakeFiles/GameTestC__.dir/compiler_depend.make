@@ -5,6 +5,7 @@ CMakeFiles/GameTestC__.dir/main.cpp.o: main.cpp \
   src/const.hpp \
   src/direction.hpp \
   src/fruit.hpp \
+  src/snake.hpp \
   /usr/include/SFML/Config.hpp \
   /usr/include/SFML/Graphics.hpp \
   /usr/include/SFML/Graphics/BlendMode.hpp \
@@ -391,7 +392,7 @@ CMakeFiles/GameTestC__.dir/main.cpp.o: main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/c++/13/bits/uses_allocator_args.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/13/bits/locale_facets_nonio.h:
 
@@ -491,10 +492,6 @@ CMakeFiles/GameTestC__.dir/main.cpp.o: main.cpp \
 
 /usr/include/SFML/Window/Mouse.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/algorithmfwd.h:
-
 /usr/include/SFML/Window/Keyboard.hpp:
 
 /usr/include/c++/13/bits/ios_base.h:
@@ -524,8 +521,6 @@ src/direction.hpp:
 src/fruit.hpp:
 
 /usr/include/c++/13/vector:
-
-/usr/include/c++/13/algorithm:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
@@ -571,6 +566,8 @@ src/fruit.hpp:
 
 /usr/include/SFML/System/ThreadLocalPtr.hpp:
 
+/usr/include/c++/13/algorithm:
+
 /usr/include/SFML/Graphics/Sprite.hpp:
 
 /usr/include/c++/13/bits/enable_special_members.h:
@@ -593,11 +590,7 @@ main.cpp:
 
 /usr/include/c++/13/bits/exception_defines.h:
 
-/usr/include/c++/13/bits/locale_facets_nonio.tcc:
-
-/usr/include/SFML/Graphics/Glsl.hpp:
-
-/usr/include/SFML/Window/Vulkan.hpp:
+src/snake.hpp:
 
 /usr/include/SFML/System/Vector3.hpp:
 
@@ -612,6 +605,12 @@ main.cpp:
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
 /usr/include/c++/13/bits/char_traits.h:
+
+/usr/include/c++/13/bits/locale_facets_nonio.tcc:
+
+/usr/include/SFML/Graphics/Glsl.hpp:
+
+/usr/include/SFML/Window/Vulkan.hpp:
 
 /usr/include/SFML/Graphics/Shape.hpp:
 
@@ -669,10 +668,6 @@ src/const.hpp:
 
 /usr/include/c++/13/bits/stl_map.h:
 
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
 /usr/include/c++/13/locale:
 
 /usr/include/SFML/System/Utf.hpp:
@@ -686,8 +681,6 @@ src/const.hpp:
 /usr/include/SFML/Graphics/Transformable.hpp:
 
 /usr/include/SFML/Graphics/View.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -742,6 +735,16 @@ src/const.hpp:
 /usr/include/SFML/System/Vector2.hpp:
 
 /usr/include/c++/13/iostream:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -885,9 +888,9 @@ src/const.hpp:
 
 /usr/include/c++/13/bits/nested_exception.h:
 
-/usr/include/SFML/System/Thread.inl:
-
 /usr/include/SFML/System/Vector2.inl:
+
+/usr/include/SFML/System/Thread.inl:
 
 /usr/include/c++/13/tuple:
 

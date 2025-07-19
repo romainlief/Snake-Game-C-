@@ -1,86 +1,20 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
-#include <deque>
 #include <iostream>
 #include <limits>
 #include <stdexcept>
 #include <vector>
 
-#include "src/direction.hpp"
 #include "src/fruit.hpp"
+#include "src/snake.hpp"
 
 using namespace std;
 
-class Snake {
-private:
-  deque<sf::Vector2i> body;
-  Direction direction;
+int score = 0;
 
-public:
-  Snake(int x, int y) {
-    body.emplace_back(x, y);
-    direction = Right;
-  }
-
-  void move(bool hasEaten = false) {
-    sf::Vector2i head = body.front();
-    switch (direction) {
-    case Up:
-      head.y -= 1;
-      break;
-    case Down:
-      head.y += 1;
-      break;
-    case Left:
-      head.x -= 1;
-      break;
-    case Right:
-      head.x += 1;
-      break;
-    }
-    body.push_front(head);
-
-    if (!hasEaten) {
-      body.pop_back();
-    }
-  }
-
-  [[nodiscard]] bool checkCollision() const {
-    sf::Vector2i head = body.front();
-    for (int i = 1; i < body.size(); ++i) {
-      if (head == body[i])
-        return true;
-    }
-    return false;
-  }
-
-  [[nodiscard]] bool checkWallCollision() const {
-    sf::Vector2i head = body.front();
-    return (head.x < 0 || head.x >= width || head.y < 0 || head.y >= height);
-  }
-
-  void setDirection(Direction dir) {
-    if ((dir == Up && direction != Down) || (dir == Down && direction != Up) ||
-        (dir == Left && direction != Right) ||
-        (dir == Right && direction != Left)) {
-      direction = dir;
-    }
-  }
-
-  void draw(sf::RenderWindow &window) const {
-    for (auto segment : body) {
-      sf::RectangleShape rectangle(sf::Vector2f(tileSize - 1, tileSize - 1));
-      rectangle.setPosition(segment.x * tileSize, segment.y * tileSize);
-      rectangle.setFillColor(sf::Color::Green);
-      window.draw(rectangle);
-    }
-  }
-
-  [[nodiscard]] sf::Vector2i getHeadPosition() const { return body.front(); }
-};
-
-void choix_difficulte() {
+int choix_difficulte() {
   int choix;
+  int diffi = 1;
   bool choixValide = false;
   while (!choixValide) {
     try {
@@ -111,6 +45,7 @@ void choix_difficulte() {
       cout << e.what() << ", veuillez réessayer." << endl;
     }
   }
+  return diffi;
 }
 
 void drawBackgroundGrid(sf::RenderWindow &window) {
@@ -185,8 +120,8 @@ bool displayGameOverScreen(sf::RenderWindow &window, sf::Font &font,
 int main() {
   sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight),
                           "Snake Game");
-
-  choix_difficulte();
+  int diffi;
+  diffi = choix_difficulte();
 
   sf::Font font;
   if (!font.loadFromFile("res/BungeeTint-Regular.ttf")) {

@@ -6,6 +6,7 @@ CMakeFiles/GameTestC__.dir/main.cpp.o
  /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/const.hpp
  /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/direction.hpp
  /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/fruit.hpp
+ /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/snake.hpp
  /usr/include/SFML/Config.hpp
  /usr/include/SFML/Graphics.hpp
  /usr/include/SFML/Graphics/BlendMode.hpp
