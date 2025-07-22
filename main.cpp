@@ -82,18 +82,18 @@ bool displayGameOverScreen(sf::RenderWindow &window, sf::Font &font,
   gameOverText.setString("Game Over! Score: " + to_string(score));
   gameOverText.setCharacterSize(50);
   gameOverText.setFillColor(sf::Color::White);
-  gameOverText.setPosition(SCREENWIDTH / 2 - 250, SCREENHEIGHT / 2 - 100);
+  gameOverText.setPosition(static_cast<float>(SCREENWIDTH) / 2 - 250, static_cast<float>(SCREENHEIGHT) / 2 - 100);
 
   sf::RectangleShape replayButton(sf::Vector2f(200, 50));
   replayButton.setFillColor(sf::Color::Blue);
-  replayButton.setPosition(SCREENWIDTH / 2 - 90, SCREENHEIGHT / 2 + 50);
+  replayButton.setPosition(static_cast<float>(SCREENWIDTH) / 2 - 90, static_cast<float>(SCREENHEIGHT) / 2 + 50);
 
   sf::Text replayText;
   replayText.setFont(font);
   replayText.setString("Rejouer");
   replayText.setCharacterSize(30);
   replayText.setFillColor(sf::Color::White);
-  replayText.setPosition(SCREENWIDTH / 2 - 60, SCREENHEIGHT / 2 + 60);
+  replayText.setPosition(static_cast<float>(SCREENWIDTH) / 2 - 60, static_cast<float>(SCREENHEIGHT) / 2 + 60);
 
   window.draw(gameOverText);
   window.draw(replayButton);
@@ -136,7 +136,7 @@ int main() {
   scoreText.setCharacterSize(30);
   scoreText.setFillColor(sf::Color::White);
   scoreText.setStyle(sf::Text::Bold);
-  scoreText.setPosition(SCREENWIDTH / 2 - 50, 10);
+  scoreText.setPosition(static_cast<float>(SCREENWIDTH) / 2 - 50, 10);
   scoreText.setString("Score: 0");
 
   while (window.isOpen()) {
