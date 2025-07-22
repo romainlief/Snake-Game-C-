@@ -2,7 +2,7 @@
 #include "const.hpp"
 
 Window::Window() {
-    window.create(sf::VideoMode(SCREENWIDTH, SCREENHEIGHT), "Ping Pong Game");
+    window.create(sf::VideoMode(SCREENWIDTH, SCREENHEIGHT), "Snake Game");
     window.setFramerateLimit(60);
 }
 
