@@ -81,12 +81,12 @@ clean: CMakeFiles/GameTestC__.dir/clean
 CMakeFiles/GameTestC__.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTestC__.dir/build.make CMakeFiles/GameTestC__.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GameTestC__.dir/build.make CMakeFiles/GameTestC__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles --progress-num=1,2,3 "Built target GameTestC__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles --progress-num=1,2,3,4,5 "Built target GameTestC__"
 .PHONY : CMakeFiles/GameTestC__.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GameTestC__.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/GameTestC__.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles 0
 .PHONY : CMakeFiles/GameTestC__.dir/rule

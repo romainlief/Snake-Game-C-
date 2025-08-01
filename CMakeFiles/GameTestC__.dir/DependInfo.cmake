@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/main.cpp" "CMakeFiles/GameTestC__.dir/main.cpp.o" "gcc" "CMakeFiles/GameTestC__.dir/main.cpp.o.d"
+  "/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/game.cpp" "CMakeFiles/GameTestC__.dir/src/game.cpp.o" "gcc" "CMakeFiles/GameTestC__.dir/src/game.cpp.o.d"
   "/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/snake.cpp" "CMakeFiles/GameTestC__.dir/src/snake.cpp.o" "gcc" "CMakeFiles/GameTestC__.dir/src/snake.cpp.o.d"
+  "/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/window.cpp" "CMakeFiles/GameTestC__.dir/src/window.cpp.o" "gcc" "CMakeFiles/GameTestC__.dir/src/window.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

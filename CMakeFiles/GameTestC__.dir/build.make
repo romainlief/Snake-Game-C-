@@ -97,16 +97,48 @@ CMakeFiles/GameTestC__.dir/src/snake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTestC__.dir/src/snake.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/snake.cpp -o CMakeFiles/GameTestC__.dir/src/snake.cpp.s
 
+CMakeFiles/GameTestC__.dir/src/game.cpp.o: CMakeFiles/GameTestC__.dir/flags.make
+CMakeFiles/GameTestC__.dir/src/game.cpp.o: src/game.cpp
+CMakeFiles/GameTestC__.dir/src/game.cpp.o: CMakeFiles/GameTestC__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GameTestC__.dir/src/game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTestC__.dir/src/game.cpp.o -MF CMakeFiles/GameTestC__.dir/src/game.cpp.o.d -o CMakeFiles/GameTestC__.dir/src/game.cpp.o -c /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/game.cpp
+
+CMakeFiles/GameTestC__.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameTestC__.dir/src/game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/game.cpp > CMakeFiles/GameTestC__.dir/src/game.cpp.i
+
+CMakeFiles/GameTestC__.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTestC__.dir/src/game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/game.cpp -o CMakeFiles/GameTestC__.dir/src/game.cpp.s
+
+CMakeFiles/GameTestC__.dir/src/window.cpp.o: CMakeFiles/GameTestC__.dir/flags.make
+CMakeFiles/GameTestC__.dir/src/window.cpp.o: src/window.cpp
+CMakeFiles/GameTestC__.dir/src/window.cpp.o: CMakeFiles/GameTestC__.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GameTestC__.dir/src/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GameTestC__.dir/src/window.cpp.o -MF CMakeFiles/GameTestC__.dir/src/window.cpp.o.d -o CMakeFiles/GameTestC__.dir/src/window.cpp.o -c /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/window.cpp
+
+CMakeFiles/GameTestC__.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GameTestC__.dir/src/window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/window.cpp > CMakeFiles/GameTestC__.dir/src/window.cpp.i
+
+CMakeFiles/GameTestC__.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GameTestC__.dir/src/window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/src/window.cpp -o CMakeFiles/GameTestC__.dir/src/window.cpp.s
+
 # Object files for target GameTestC__
 GameTestC___OBJECTS = \
 "CMakeFiles/GameTestC__.dir/main.cpp.o" \
-"CMakeFiles/GameTestC__.dir/src/snake.cpp.o"
+"CMakeFiles/GameTestC__.dir/src/snake.cpp.o" \
+"CMakeFiles/GameTestC__.dir/src/game.cpp.o" \
+"CMakeFiles/GameTestC__.dir/src/window.cpp.o"
 
 # External object files for target GameTestC__
 GameTestC___EXTERNAL_OBJECTS =
 
 GameTestC__: CMakeFiles/GameTestC__.dir/main.cpp.o
 GameTestC__: CMakeFiles/GameTestC__.dir/src/snake.cpp.o
+GameTestC__: CMakeFiles/GameTestC__.dir/src/game.cpp.o
+GameTestC__: CMakeFiles/GameTestC__.dir/src/window.cpp.o
 GameTestC__: CMakeFiles/GameTestC__.dir/build.make
 GameTestC__: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
 GameTestC__: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.6.1
@@ -114,7 +146,7 @@ GameTestC__: /usr/lib/x86_64-linux-gnu/libsfml-network.so.2.6.1
 GameTestC__: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
 GameTestC__: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 GameTestC__: CMakeFiles/GameTestC__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable GameTestC__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/romain/Bureau/Code/Cpp-C_Project/Snake-Game-C-/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GameTestC__"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameTestC__.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
